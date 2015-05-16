@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div.mainPart {
+	float: left;
+	margin-top: 10px;
+	/*height: 200px;*/
+	border:2px solid black;
+	border-radius: 15px;
+	box-shadow: 0 0 10px black;
+	padding: 5px;
+}
+
+div > h3 {
+	margin-top: 2px;
+	text-align: center;
+	font-family: cursive;
+ 	text-transform: capitalize;
+}
+
+#div_start input, #div_end input{
+	padding: 2px 5px;
+	margin: 2px;
+}
+
+div#div1 {
+	color: black;
+  	font-size: 24px;
+ 	font-family: cursive;
+}
+
+.number {
+	font-size: 2em;
+	background-color: violet;
+	color: black;
+	font-family: cursive;
+	padding: 0 2px 3px;
+	border-radius: 4px;
+}
+
+.number {
+	width: 25px;
+	float: left;
+	margin-left: 3px;
+	text-align: center;
+}
+
+.colon {
+	background-color: inherit;
+	font-family: monospace;
+	width: 15px;
+}
+
+div#numbers {
+	/*border-radius: 15px;*/
+	padding: 10px 20px 5px 17px;
+	display: inline-block;
+/*	width: 250px;
+	border: 2px groove black;*/
+}
+
+div#clocks {
+	margin-bottom: 10px;
+	background-color: blanchedalmond;
+	border-radius: 15px;
+	border: 2px groove gold;
+	width: 250px;
+}
+
+div.btnClock span{
+	cursor: pointer;
+	background-color: gold;
+	padding: 3px 5px;
+	border-radius: 5px;
+	box-shadow: 0 0 3px black;
+	color: darkmagenta;;
+}
+div.btnClock {
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+div.btnClock span:hover {
+	color: aliceblue;
+	background-color: blueviolet;
+	box-shadow: 0 0 8px blue;
+}
