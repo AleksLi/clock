@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	text-align: center;
+}
+
+div.manageMenu, div.menuContent {
+	/*border: 2px solid blue;*/
+	border-radius: 20px;
+	margin-bottom: 10px;
+}
+
+div #menuText {
+	margin-right: 10px;
+}
+
+input#menuText {
+	padding: 2px 5px;
+}
+
+#selectText option {
+	padding: 5px 5px;
+}
+
+select#selectText {
+	padding: 4px 6px;
+}
+
+div.manageMenu {
+	padding: 10px;
+	text-align: center;
+}
+
+div.manageMenu div {
+	text-align: center;
+	padding: 5px;
+}
+
+#menuContent ul  {
+  	margin-left: 20px;
+  	list-style: none;
+  	margin-right: 20px;
+}
+
+#menuContent ul  li  {
+	background-color: gray;
+	color:darkorange; 
+	letter-spacing: 0.1em;
+	margin: 2px;
+	padding: 5px 10px;
+	border-radius: 3px;
+	cursor: pointer;
+	/*border: 1px gray dashed;*/
+}
+
+div.menuContent div {
+	padding: 5px;
+}
+
+div #addItem {
+	padding: 3px 5px;
+}
